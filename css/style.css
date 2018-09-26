@@ -36,7 +36,6 @@ h4 {
 select, textarea {
   color: grey;
 }
-
 button {
   color: white;
   background: #5bc6bc;
@@ -46,7 +45,6 @@ button {
   opacity: 1;
 }
 button:hover {opacity: .7}
-
 footer {
   display: flex;
   justify-content: center;
