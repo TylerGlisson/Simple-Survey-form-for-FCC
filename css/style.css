@@ -1,0 +1,54 @@
+body {
+  background-color: #5bc6bc;
+  font-family: "Roboto Slab", serif;
+  font-weight: lightest;
+}
+header {
+  color: white;
+  text-align: center;
+}
+#surveyFormContainer {
+  display: flex;
+  justify-content: center;
+}
+#surveyForm {
+  width: 80vw;
+  text-align: center;
+  background: grey;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+#gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em 2em;
+  padding: 2em;
+}
+h4 {
+ text-align: right;
+ align-self: center;
+}
+.rightColumn, form {
+  text-align: left;
+  align-self: center;
+}
+select, textarea {
+  color: grey;
+}
+
+button {
+  color: white;
+  background: #5bc6bc;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  opacity: 1;
+}
+button:hover {opacity: .7}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}

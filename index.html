@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Site Survey</title>
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Open+Sans:400,700,800|Roboto+Slab:400,700|Rubik:400,700,900|Zilla+Slab:400,700" rel="stylesheet">
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header><h1>Survey Form<h1></header>
+ 
+<div id="surveyFormContainer">
+  <div id="surveyForm">
+    <!---- Top of survey is centered and not part of the grid---->
+    <h3>Please let me know how this site can be improved</h3><br>
+    
+    <!-----split into grid of two columns---->
+    <div id="gridContainer">
+      
+      <h4>* Name: </h4>
+      <form>
+          <input type="text" name"name" placeholder="Enter your name" class="blackText" required></input>
+      </form>
+      <h4>* Email: </h4>
+      <form>
+          <input type="text" name"email" placeholder="Enter your email" class="blackText" required></input>
+      </form>
+      <h4>* Age: </h4>
+      <form>
+          <input type="text" name"age" placeholder="Age" class="blackText" required></input>
+      </form>
+      <br><span></span>
+      
+      <h4>* Which option best describes your current role: </h4>
+      <div class="rightColumn">
+        <select required>
+              <option value="5">Select an Option</option>
+              <option value="0">Student</option>
+              <option value="1">Full Time Job</option>
+              <option value="2">Full Time Learner</option>
+              <option value="3">Prefer Not to Say</option>
+              <option value="4">Other</option>
+        </select>
+     </div> <!----Drop Down menu----->
+      <br><span></span>
+     
+      <h4>* How likely is that you would recommend freeCodeCamp to a friend?</h4>
+      <form>
+        <input type="radio" name="recommend" value="definitely"> Definitely<br>
+        <input type="radio" name="recommend" value="maybe"> Maybe<br>
+        <input type="radio" name="recommend" value="notSure"> Not Sure
+      </form> <!----Reccomendation likelyhood----->
+      <br><span></span>
+      
+      <h4>What do you like most in FCC: </h4>
+      <div class="rightColumn">
+        <select placeholder="Select an Option">
+              <option value="6">Select an Option</option>
+              <option value="7">Challenges</option>
+              <option value="8">Projects</option>
+              <option value="9">Community</option>
+              <option value="10">Open Source</option>
+        </select>
+     </div> <!----Drop Down menu 2----->
+      <br><span></span>
+      
+      <h4>Things that should be improved in the future: </h4>
+      <form>
+        <input type="checkbox" name="improvement0" value="frontEnd"> Front-End Projects<br>
+        <input type="checkbox" name="improvement1" value="backEnd"> Back-End Projects<br>
+        <input type="checkbox" name="improvement2" value="dataVis"> Data Visualization<br>
+        <input type="checkbox" name="improvement3" value="challenges"> Challenges<br>
+        <input type="checkbox" name="improvement4" value="openSource"> Open Source Community<br>
+        <input type="checkbox" name="improvement5" value="gitter"> Gitter Help Rooms<br>
+        <input type="checkbox" name="improvement6" value="videos"> Videos<br>
+        <input type="checkbox" name="improvement7" value="cityMeetups"> City Meetups<br>
+        <input type="checkbox" name="improvement8" value="wiki"> Wiki<br>
+        <input type="checkbox" name="improvement9" value="forum"> Forum<br>
+        <input type="checkbox" name="improvement10" value="courses"> Additional Courses<br>
+      </form> <!-----Improvements radio buttons---->
+      <br><span></span>
+      
+      <h4>Any Suggestions or Comments? </h4>
+      <form>
+        <textarea name="comments"></textarea>
+      </form>
+    </div>
+  
+  <!---- Button is centered in the form and not part of the grid---->  
+    <button type="button">Submit</button>   
+  </div> <!----surveyForm---->
+  
+</div> <!----surveyFormContainer----->
+    
+
+<footer>Created by <a href="#" target="_blank">Tyler Glisson</a></footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+</body>
+
+</html>
