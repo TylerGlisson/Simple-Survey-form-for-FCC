@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: center;
 }
-#surveyForm {
+#surveyArea {
   width: 80vw;
   text-align: center;
   background: grey;
@@ -19,24 +19,29 @@ header {
   padding: 2em;
   border-radius: 10px;
 }
-#gridContainer {
+form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em 2em;
   padding: 2em;
 }
-h4 {
- text-align: right;
- align-self: center;
+.leftSide {
+  text-align: right;
 }
-.rightColumn, form {
+.rightSide {
   text-align: left;
-  align-self: center;
 }
-select, textarea {
+input, select, textarea {
   color: grey;
 }
-button {
+.dropDowns {
+  justify-self: start;
+  align-self: center;
+}
+.submitButton {
+  grid-column: 1/-1;
+  justify-self: center;
+  width: 100px;
   color: white;
   background: #5bc6bc;
   border-radius: 4px;
@@ -44,7 +49,7 @@ button {
   font-size: 16px;
   opacity: 1;
 }
-button:hover {opacity: .7}
+.submitButton:hover {opacity: .7}
 footer {
   display: flex;
   justify-content: center;
